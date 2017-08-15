@@ -36,10 +36,35 @@
         "terminal.background": "#000"
     },
     "window.zoomLevel": 0,
-    // importCost
-    // "importCost.smallPackageColor": "#5C6370",
-    // "importCost.mediumPackageColor": "#ABB2BF",
-    // "importCost.largePackageColor": "#FFFFFF",
     // TODO Highlight
-    "todohighlight.include": "{**/*.js,**/*.jsx,**/*.vue,**/*.ts,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss}"
+    "todohighlight.include": "{**/*.js,**/*.jsx,**/*.vue,**/*.ts,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss}",
+    "todohighlight.defaultStyle": {
+        "color": "#fff"
+    },
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "backgroundColor": "#6CB2EF"
+        },
+        {
+            "text": "NOTE",
+            "backgroundColor": "#6CB2EF"
+        },
+        {
+            "text": "IDEA",
+            "backgroundColor": "#6CB2EF"
+        },
+        {
+            "text": "FIXME",
+            "backgroundColor": "#E76067"
+        },
+        {
+            "text": "HACK",
+            "backgroundColor": "#E76067"
+        },
+        {
+            "text": "TEMP",
+            "backgroundColor": "#E76067"
+        }
+    ]
 }
