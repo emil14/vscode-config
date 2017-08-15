@@ -1,0 +1,28 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // Integrated Terminal
+    {
+        "key": "ctrl+shift+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+alt+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    // Jumpy
+    {
+        "key": "shift+enter",
+        "command": "extension.jumpy-word",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "Escape",
+        "command": "extension.jumpy-exit",
+        "when": "editorTextFocus && jumpy.isJumpyMode"
+    }
+]
