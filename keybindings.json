@@ -24,5 +24,25 @@
         "key": "Escape",
         "command": "extension.jumpy-exit",
         "when": "editorTextFocus && jumpy.isJumpyMode"
+    },
+    // Custom tabs function
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    // Atom-like selection indenting
+    {
+        "key": "shift+tab",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && editorHasSelection && !editorReadonly"
+    },
+    {
+        "key": "tab",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && editorHasSelection && !editorReadonly"
     }
 ]

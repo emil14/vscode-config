@@ -2,7 +2,6 @@
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
-    "guides.enabled": false,
     "editor.fontSize": 16,
     "editor.fontFamily": "'Hermit', monospace, 'Droid Sans Fallback'",
     "editor.renderWhitespace": "all",
@@ -35,36 +34,8 @@
     "workbench.colorCustomizations": {
         "terminal.background": "#000"
     },
-    "window.zoomLevel": 0,
-    // TODO Highlight
-    "todohighlight.include": "{**/*.js,**/*.jsx,**/*.vue,**/*.ts,**/*.tsx,**/*.html,**/*.php,**/*.css,**/*.scss}",
-    "todohighlight.defaultStyle": {
-        "color": "#fff"
-    },
-    "todohighlight.keywords": [
-        {
-            "text": "TODO",
-            "backgroundColor": "#6CB2EF"
-        },
-        {
-            "text": "NOTE",
-            "backgroundColor": "#6CB2EF"
-        },
-        {
-            "text": "IDEA",
-            "backgroundColor": "#6CB2EF"
-        },
-        {
-            "text": "FIXME",
-            "backgroundColor": "#E76067"
-        },
-        {
-            "text": "HACK",
-            "backgroundColor": "#E76067"
-        },
-        {
-            "text": "TEMP",
-            "backgroundColor": "#E76067"
-        }
-    ]
+    "files.insertFinalNewline": true,
+    // ESLINT
+    "eslint.autoFixOnSave": true,
+    "window.zoomLevel": 0
 }
