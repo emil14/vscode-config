@@ -1,7 +1,6 @@
 {
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
     "editor.fontSize": 16,
     "editor.fontFamily": "'Hermit', monospace, 'Droid Sans Fallback'",
     "editor.renderWhitespace": "all",
