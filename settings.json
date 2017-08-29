@@ -17,6 +17,7 @@
         "comments": true,
         "strings": true
     },
+    "editor.snippetSuggestions": "top",
     "files.trimTrailingWhitespace": true,
     "editor.autoIndent": true,
     "editor.formatOnType": true,
