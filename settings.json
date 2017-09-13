@@ -2,7 +2,8 @@
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.fontSize": 16,
-    "editor.fontFamily": "'Hermit', monospace, 'Droid Sans Fallback'",
+    // "editor.fontFamily": "'Hermit', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Terminus (TTF)', monospace, 'Droid Sans Fallback'",
     "editor.renderWhitespace": "all",
     "editor.wordWrap": "on",
     "files.exclude": {
