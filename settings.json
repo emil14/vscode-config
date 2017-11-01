@@ -9,7 +9,7 @@
         "**/.git": false
     },
     "editor.tabCompletion": true,
-    "editor.rulers": [80],
+    "editor.rulers": [120],
     "editor.minimap.renderCharacters": false,
     "editor.minimap.maxColumn": 80,
     "editor.quickSuggestions": {
@@ -20,7 +20,6 @@
     "editor.snippetSuggestions": "top",
     "files.trimTrailingWhitespace": true,
     "editor.autoIndent": true,
-    "editor.formatOnType": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "explorer.openEditors.visible": 0,
@@ -35,8 +34,14 @@
         "terminal.background": "#000"
     },
     "files.insertFinalNewline": true,
-    // ESLINT
     "eslint.autoFixOnSave": true,
     "window.zoomLevel": 0,
-    "vim.disableAnnoyingNeovimMessage": true
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "flow.fileExtensions": [
+        ".js",
+        ".vue"
+    ],
+    "emmet.includeLanguages": {"vue-html": "html"},
+    "editor.tabSize": 2
 }
