@@ -43,5 +43,7 @@
         ".vue"
     ],
     "emmet.includeLanguages": {"vue-html": "html"},
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "vetur.validation.script": false,
+    "vim.disableAnnoyingNeovimMessage": true
 }
