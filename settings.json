@@ -1,17 +1,13 @@
 {
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
     "editor.fontSize": 16,
     "editor.fontFamily": "'Terminus (TTF)', monospace, 'Droid Sans Fallback'",
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
     "files.exclude": {
         "**/.git": false
     },
     "editor.tabCompletion": true,
     "editor.rulers": [120],
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 80,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -24,26 +20,17 @@
     "workbench.editor.enablePreview": false,
     "explorer.openEditors.visible": 0,
     "git.enabled": false,
-    "color-highlight.markerType": "underline",
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "file-icons",
-    "terminal.integrated.fontFamily": "'Terminus (TTF)', monospace, 'Droid Sans Fallback'",
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.cursorBlinking": true,
-    "workbench.colorCustomizations": {
-        "terminal.background": "#000"
-    },
     "files.insertFinalNewline": true,
     "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
     "window.zoomLevel": 0,
-    "flow.useNPMPackagedFlow": true,
-    "javascript.validate.enable": false,
-    "flow.fileExtensions": [
-        ".js",
-        ".vue"
-    ],
-    "emmet.includeLanguages": {"vue-html": "html"},
     "editor.tabSize": 2,
-    "vetur.validation.script": false,
-    "vim.disableAnnoyingNeovimMessage": true
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+    }
 }
