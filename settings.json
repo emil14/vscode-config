@@ -3,9 +3,6 @@
     "editor.fontFamily": "'Terminus (TTF)', monospace, 'Droid Sans Fallback'",
     "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
-    "files.exclude": {
-        "**/.git": false
-    },
     "editor.tabCompletion": true,
     "editor.rulers": [120],
     "editor.quickSuggestions": {
@@ -23,7 +20,6 @@
     "files.insertFinalNewline": true,
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
-    "window.zoomLevel": 0,
     "editor.tabSize": 2,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "vscode-icons",
@@ -32,5 +28,5 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/tmp": true,
-    }
+    },
 }
