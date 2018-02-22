@@ -22,7 +22,6 @@
     "eslint.alwaysShowStatus": true,
     "editor.tabSize": 2,
     "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "vscode-icons",
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
