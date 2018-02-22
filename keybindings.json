@@ -1,5 +1,14 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    // Custom tabs function
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
     // Integrated Terminal
     {
         "key": "ctrl+shift+`",
@@ -14,6 +23,28 @@
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
     },
+    // Atom-like selection indenting
+    {
+        "key": "shift+tab",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && editorHasSelection && !editorReadonly"
+    },
+    {
+        "key": "tab",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && editorHasSelection && !editorReadonly"
+    },
+    /*
+        Sublime Text compatibility
+    */
+    // Join Lines
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.joinLines",
+    },
+    /*
+        Extensions
+    */
     // Jumpy
     {
         "key": "shift+enter",
@@ -25,24 +56,4 @@
         "command": "extension.jumpy-exit",
         "when": "editorTextFocus && jumpy.isJumpyMode"
     },
-    // Custom tabs function
-    {
-        "key": "ctrl+tab",
-        "command": "workbench.action.nextEditor"
-    },
-    {
-        "key": "ctrl+shift+tab",
-        "command": "workbench.action.previousEditor"
-    },
-    // Atom-like selection indenting
-    {
-        "key": "shift+tab",
-        "command": "editor.action.outdentLines",
-        "when": "editorTextFocus && editorHasSelection && !editorReadonly"
-    },
-    {
-        "key": "tab",
-        "command": "editor.action.indentLines",
-        "when": "editorTextFocus && editorHasSelection && !editorReadonly"
-    }
 ]
