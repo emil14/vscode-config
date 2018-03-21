@@ -4,7 +4,7 @@
     "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
     "editor.tabCompletion": true,
-    "editor.rulers": [120],
+    "editor.rulers": [80, 120],
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -25,7 +25,6 @@
     "projectManager.vscode.baseFolders": [
         "$home\\projects"
     ],
-    "editor.minimap.enabled": false,
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
@@ -34,4 +33,26 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 16,
     "editor.mouseWheelScrollSensitivity": 2,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#000000",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiRed": "#c23621",
+        "terminal.ansiGreen": "#25bc24",
+        "terminal.ansiYellow": "#adad27",
+        "terminal.ansiBlue": "#492ee1",
+        "terminal.ansiMagenta": "#d338d3",
+        "terminal.ansiCyan": "#33bbc8",
+        "terminal.ansiWhite": "#cbcccd",
+        "terminal.ansiBrightBlack": "#818383",
+        "terminal.ansiBrightRed": "#fc391f",
+        "terminal.ansiBrightGreen": "#31e722",
+        "terminal.ansiBrightYellow": "#eaec23",
+        "terminal.ansiBrightBlue": "#5833ff",
+        "terminal.ansiBrightMagenta": "#f935f8",
+        "terminal.ansiBrightCyan": "#14f0f0",
+        "terminal.ansiBrightWhite": "#e9ebeb",
+      },
+    "editor.minimap.enabled": false,
+    "diffEditor.renderSideBySide": false,
 }
+

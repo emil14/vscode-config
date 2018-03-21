@@ -11,16 +11,49 @@
     },
     // Integrated Terminal
     {
-        "key": "ctrl+shift+`",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.toggleMaximizedPanel"
     },
     {
-        "key": "ctrl+alt+`",
-        "command": "workbench.action.terminal.focus"
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.terminal.kill"
     },
     {
-        "key": "ctrl+alt+`",
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalTextSelected"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "workbench.action.terminal.selectAll",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+`",
         "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFindWidget",
         "when": "terminalFocus"
     },
     // Atom-like selection indenting
@@ -34,17 +67,13 @@
         "command": "editor.action.indentLines",
         "when": "editorTextFocus && editorHasSelection && !editorReadonly"
     },
-    /*
-        Sublime Text compatibility
-    */
     // Join Lines
     {
         "key": "ctrl+j",
         "command": "editor.action.joinLines",
     },
-    /*
-        Extensions
-    */
+
+    /* Extensions */
     // Jumpy
     {
         "key": "shift+enter",
