@@ -51,8 +51,10 @@
         "terminal.ansiBrightMagenta": "#f935f8",
         "terminal.ansiBrightCyan": "#14f0f0",
         "terminal.ansiBrightWhite": "#e9ebeb",
+        "editorWhitespace.foreground": "#282c34",
       },
     "editor.minimap.enabled": false,
     "diffEditor.renderSideBySide": false,
+    "window.zoomLevel": 0,
 }
 
