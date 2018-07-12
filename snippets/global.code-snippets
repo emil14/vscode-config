@@ -1,0 +1,24 @@
+{
+  "Print to console": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "log",
+    "body": ["console.log($1);"],
+    "description": "Log output to console"
+  },
+  "ESLint disable": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "ed",
+    "body": [
+      "/* eslint-disable ${1:rule} */",
+      "\t$0",
+      "/* eslint-enable ${1} */"
+    ],
+    "description": "ESLint disable wrapper"
+  },
+  "ESLint disable line": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "edl",
+    "body": ["// eslint-disable-line ${1:rule}"],
+    "description": "ESLint disable-line wrapper"
+  },
+}
