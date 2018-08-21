@@ -1,10 +1,8 @@
 {
     "diffEditor.renderSideBySide": false,
     "editor.autoIndent": true,
-    "editor.fontFamily": "'Terminus (TTF)', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "'Hermit', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.minimap.enabled": false,
-    "editor.mouseWheelScrollSensitivity": 2,
     "editor.quickSuggestions": {
         "comments": true,
         "other": true,
@@ -19,7 +17,6 @@
     "editor.tabCompletion": true,
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    "eslint.alwaysShowStatus": true,
     "eslint.autoFixOnSave": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -34,10 +31,9 @@
     },
     "search.smartCase": true,
     "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "'Terminus (TTF)', monospace, 'Droid Sans Fallback'",
     "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
-        // "editorWhitespace.foreground": "#282c34",
         "terminal.ansiBlack": "#000000",
         "terminal.ansiBlue": "#492ee1",
         "terminal.ansiBrightBlack": "#818383",
@@ -58,6 +54,6 @@
     },
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.enablePreview": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.rendererType": "dom",
+    "workbench.startupEditor": "none",
+    "terminal.explorerKind": "external"
 }

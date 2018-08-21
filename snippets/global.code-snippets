@@ -15,6 +15,12 @@
     ],
     "description": "ESLint disable wrapper"
   },
+  "ESLint enable": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "ee",
+    "body": ["/* eslint-enable */"],
+    "description": "ESLint disable wrapper"
+  },
   "ESLint disable line": {
     "scope": "javascript,javascriptreact,typescript",
     "prefix": "edl",
@@ -27,4 +33,10 @@
     "body": ["// eslint-disable-next-line ${1:rule}"],
     "description": "ESLint disable-line wrapper"
   },
+  "Add debugger": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "db",
+    "body": ["debugger;"],
+    "description": "Debugger shortcut"
+  }
 }
