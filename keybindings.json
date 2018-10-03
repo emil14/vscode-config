@@ -72,9 +72,13 @@
         "key": "ctrl+j",
         "command": "editor.action.joinLines",
     },
-
-    /* Extensions */
-    // Jumpy
+    // Go To Implementation
+    {
+        "key": "f12",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    // Jumpy Extension
     {
         "key": "shift+enter",
         "command": "extension.jumpy-word",

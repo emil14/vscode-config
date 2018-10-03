@@ -2,8 +2,14 @@
   "Print to console": {
     "scope": "javascript,javascriptreact,typescript",
     "prefix": "lg",
-    "body": ["console.log($1);"],
+    "body": ["console.log($1)"],
     "description": "Log output to console"
+  },
+  "Add breakpoint": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "db",
+    "body": ["debugger // eslint-disable-line"],
+    "description": "Debugger shortcut"
   },
   "ESLint disable": {
     "scope": "javascript,javascriptreact,typescript",
@@ -33,10 +39,4 @@
     "body": ["// eslint-disable-next-line ${1:rule}"],
     "description": "ESLint disable-line wrapper"
   },
-  "Add debugger": {
-    "scope": "javascript,javascriptreact,typescript",
-    "prefix": "db",
-    "body": ["debugger;"],
-    "description": "Debugger shortcut"
-  }
 }
