@@ -39,4 +39,10 @@
     "body": ["// eslint-disable-next-line ${1:rule}"],
     "description": "ESLint disable-line wrapper"
   },
+  "Try/Catch/Finally": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "tcf",
+    "body": "try {\n\t${0}\n} catch (${1:err}) {\n\t\n} finally {\n\t\n}",
+    "description": "try/catch/finally"
+  },
 }
